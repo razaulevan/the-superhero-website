@@ -7,6 +7,8 @@ import './QualifiedDeveloper.css';
 const QualifiedDeveloper = () => {
     const [developers, setDevelopers] = useState([]);
     const [developerCart, setDeveloperCart] = useState([]);
+
+    //fake api
     useEffect(() => {
         fetch('https://mocki.io/v1/6e071cfe-aacf-4a3d-a984-3efd60778b38')
             .then(res => res.json())
