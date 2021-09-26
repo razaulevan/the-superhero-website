@@ -14,6 +14,7 @@ const QualifiedDeveloper = () => {
 
     }, [])
     const handleDeveloperCart = (developer) => {
+
         const newDeveloperCart = [...developerCart, developer];
         setDeveloperCart(newDeveloperCart);
     }
