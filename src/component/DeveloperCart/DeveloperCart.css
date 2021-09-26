@@ -8,4 +8,20 @@
     height: 40px;
     border-radius: 50%;
     padding-right: 8px;
+    
+    
+}
+.total-count{
+    background-color: turquoise;
+    padding: 20px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+.person{
+    background-color: rgb(3, 165, 11);
+    padding-right: 5px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    color: white;
+    font-weight: 400;
 }

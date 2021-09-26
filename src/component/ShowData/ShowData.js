@@ -1,12 +1,12 @@
 import React from 'react';
 import './ShowData.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCheckDouble } from '@fortawesome/free-solid-svg-icons'
+import { faAngleDoubleRight, faChild, } from '@fortawesome/free-solid-svg-icons'
 
 const ShowData = (props) => {
 
     const { name, salary, img, email, phone, company } = props.developer;
-    const element = <FontAwesomeIcon icon={faCheckDouble} />
+    const element = <FontAwesomeIcon icon={faAngleDoubleRight} />
 
     return (
         <div className="data-card">
@@ -22,7 +22,8 @@ const ShowData = (props) => {
                     <h3>Contact: {phone}</h3>
                     <button onClick={() => props.handleDeveloperCart(props.developer)}
 
-                        className="button"><span className="font-btn">{element} </span>Pick Him</button>
+                        className="button"><span className="font-btn">{element}  </span>Pick Him</button>
+                    <p ><FontAwesomeIcon icon={faChild} /> Evan It Farm </p>
 
 
                 </div>

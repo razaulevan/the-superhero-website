@@ -7,21 +7,31 @@
 
 }
 .data-card {
-    background-color: rgb(198, 198, 206);
-    border: 2px solid rgb(23, 24, 24);
+    background-color: rgb(184, 209, 203);
+    border: 1px solid rgb(23, 24, 24);
     border-radius: 10px;
 
 }
 .button{
-    background-color: rgb(8, 158, 228);
+    /* background-color: blue;
     width: 140px;
     height: 25px;
     border: 1px solid gray;
     border-radius: 5px;
     color: white;
+    margin-bottom: 20px; */
+    background-color: rgb(17, 130, 182);
+    width: 150px;
+    height: 25px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
     margin-bottom: 20px;
+    font-weight: 700;
 }
 
 .font-btn{
-    color: rgb(233, 157, 144);
+    color: rgb(0, 255, 0);
+    font-weight: 3000;
 }

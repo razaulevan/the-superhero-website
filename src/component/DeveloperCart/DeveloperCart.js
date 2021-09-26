@@ -25,14 +25,14 @@ const DeveloperCart = (props) => {
     }
 
     return (
-        <div>
-            <h1>Total Developer:{totalQuantity} </h1>
-            <h4>Budget:{total}</h4>
-            {
+        <div className="total-count">
+            <div><h3>Total Developer:{totalQuantity} </h3>
+                <h4>Budget:{total}</h4></div>
+            <div >{
                 developerCart.map(developer =>
-                    <ul> <div className="cart-items"><div><img src={developer.img} alt="" /></div> <div>{developer.name}</div></div></ul>
+                    <ul className="person"> <div className="cart-items"><div ><img src={developer.img} alt="" /></div> <div>{developer.name}</div></div></ul>
                 )
-            }
+            }</div>
 
         </div>
     );
