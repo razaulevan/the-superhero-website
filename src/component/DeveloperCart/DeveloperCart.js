@@ -21,7 +21,6 @@ const DeveloperCart = (props) => {
 
         }
         totalQuantity = totalQuantity + developer.quantity;
-        document.getElementsByClassName("Button").disabled = true;
 
     }
 

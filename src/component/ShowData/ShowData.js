@@ -1,7 +1,7 @@
 import React from 'react';
 import './ShowData.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee, faCheckDouble } from '@fortawesome/free-solid-svg-icons'
+import { faCheckDouble } from '@fortawesome/free-solid-svg-icons'
 
 const ShowData = (props) => {
 
