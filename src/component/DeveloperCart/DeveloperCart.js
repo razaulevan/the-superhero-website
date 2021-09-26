@@ -5,7 +5,7 @@ const DeveloperCart = (props) => {
     // console.log(props);
     const { developerCart } = props;
 
-    console.log(developerCart);
+    // console.log(developerCart);
     let totalQuantity = 0;
     let total = 0;
 
@@ -31,6 +31,7 @@ const DeveloperCart = (props) => {
             <div >
                 {
                     developerCart.map(developer =>
+
                         <ul className="person"> <div className="cart-items"><div ><img src={developer.img} alt="" /></div> <div>{developer.name}</div></div></ul>
                     )
                 }</div>

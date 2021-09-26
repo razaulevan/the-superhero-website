@@ -24,11 +24,14 @@ const QualifiedDeveloper = () => {
         <div className="container-div">
             <div className="main-div" >
                 {
-                    developers.map(developer => <ShowData
-                        developer={developer}
-                        handleDeveloperCart={handleDeveloperCart}
+                    developers.map(developer =>
 
-                    ></ShowData>)
+                        <ShowData
+                            key={developer.id}
+                            developer={developer}
+                            handleDeveloperCart={handleDeveloperCart}
+
+                        ></ShowData>)
                 }
             </div>
             <div className="developer-cart">
