@@ -1,5 +1,8 @@
 # EVAN IT FARM
 Pick The Best Web Developer Team For SUROKKHA APP
+
+Live site: https://silly-nightingale-0861bf.netlify.app
+
 what is Surokha app?
 Surokkha app (surokkha.gov.bd) is the most popular app in Bangladesh today. All Bangladeshi citizens need to register through this app to get the vaccine of covid 19. No person will be vaccinated without registration. So if you want to get vaccinated, you have to download surokkha App. Today we will discuss surokkha  App Details. For those who have not yet registered surokkha App Bangladesh, I request you to read today’s article carefully. Because surokkha App is very important for Covid 19. Surokkha App Gov BD means Suraksha App is developed and operated by the Government of Bangladesh. So of course anyone can register in this app.
 
