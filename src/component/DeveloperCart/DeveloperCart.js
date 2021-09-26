@@ -32,7 +32,8 @@ const DeveloperCart = (props) => {
                 {
                     developerCart.map(developer =>
 
-                        <ul className="person"> <div className="cart-items"><div ><img src={developer.img} alt="" /></div> <div>{developer.name}</div></div></ul>
+
+                        <ul className="person" key={developer.id}> <div className="cart-items"><div ><img src={developer.img} alt="" /></div> <div>{developer.name}</div></div></ul>
                     )
                 }</div>
 
